@@ -1,6 +1,6 @@
 # README
 
-## Filebase application allows users to store and maintain documents for easy retrieval.
+## Filebase allows users to store and maintain documents for easy retrieval.
 
 ### Models:
 - [ ] Docs
