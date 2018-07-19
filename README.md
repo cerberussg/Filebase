@@ -7,7 +7,7 @@
 - [ ] Users
 
 ### Features:
-- [ ] Add, Edit, Destroy documents
+- [ ] Add, Edit, Destroy documents.
 - [ ] Utilizing Markdown, ability to markdown documents according to specification.
 - [ ] Red Carpet, ability to drop in ruby code examples within our documents.
 
