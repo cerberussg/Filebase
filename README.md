@@ -8,9 +8,10 @@
 
 ## Features:
 - [x] Add, Edit, Destroy documents.
-- [ ] Utilizing Markdown, ability to markdown documents.
-- [ ] Red Carpet, ability to drop in ruby code examples within documents.
+- [x] Utilizing Markdown, ability to markdown documents.
+- [x] Red Carpet, ability to drop in ruby code examples within documents.
 - [x] Growl notifcations using Gritter.
+- [ ] Export to PDF.
 
 ## TODO:
 - [ ] Blog about building Filebase

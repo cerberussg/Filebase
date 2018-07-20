@@ -1,7 +1,7 @@
 .wrapper_with_padding
   #doc_show
     %h1.title= @doc.title
-    %p.content= simple_format(@doc.content)
+    %p.content= markdown @doc.content
 
     .buttons
       = link_to "Edit", edit_doc_path(@doc), class: "button"
