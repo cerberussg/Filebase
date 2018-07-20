@@ -4,7 +4,7 @@
 
 ## Models:
 - [x] Doc
-- [ ] User
+- [x] User
 
 ## Features:
 - [x] Add, Edit, Destroy documents.

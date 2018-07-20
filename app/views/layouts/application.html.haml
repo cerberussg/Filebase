@@ -1,0 +1,25 @@
+!!!
+%html
+%head
+  %title FileBase | All your files are belong to us
+  = csrf_meta_tags
+  = csp_meta_tag
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+%body
+  %header
+    .header_inner
+      = link_to 'FileBase', root_path, id: "logo"
+
+      %nav
+        - if user_signed_in?
+          = link_to "Create Document", new_doc_path
+          = link_to "Sign Out", destroy_user_session_path, method: :delete
+
+        - else
+          = link_to "Login", new_user_session_path
+
+  %p.notice= notice
+  %p.alert= alert
+
+  = yield
