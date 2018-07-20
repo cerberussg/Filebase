@@ -10,7 +10,7 @@
 - [x] Add, Edit, Destroy documents.
 - [ ] Utilizing Markdown, ability to markdown documents.
 - [ ] Red Carpet, ability to drop in ruby code examples within documents.
-- [ ] Growl notifcations using Gritter.
+- [x] Growl notifcations using Gritter.
 
 ## TODO:
 - [ ] Blog about building Filebase

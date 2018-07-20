@@ -19,7 +19,5 @@
         - else
           = link_to "Login", new_user_session_path
 
-  %p.notice= notice
-  %p.alert= alert
-
+  = js add_gritter(flash[:notice], title: "FileBase Notification", sticky: false, time: 1500)
   = yield
