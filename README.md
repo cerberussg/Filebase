@@ -8,8 +8,8 @@
 
 ## Features:
 - [x] Add, Edit, Destroy documents.
-- [x] Utilizing Markdown, ability to markdown documents.
-- [x] Red Carpet, ability to drop in ruby code examples within documents.
+- [x] Utilizing Coderay, ability to markdown documents.
+- [x] Redcarpet, Syntax Highlighting.
 - [x] Growl notifcations using Gritter.
 - [ ] Font Awesome Icons
 - [ ] Pagination
