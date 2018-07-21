@@ -16,7 +16,7 @@ class DocsController < ApplicationController
     @doc = current_user.docs.build(doc_params)
 
     if @doc.save
-      redirect_to @doc
+      redirect_to @doc, notice: 'Document saved.', time: 1500
     else
       render 'new'
     end
@@ -27,7 +27,7 @@ class DocsController < ApplicationController
 
   def update
     if @doc.update(doc_params)
-      redirect_to @doc
+      redirect_to @doc, notice: 'Document updated successfully.', time: 1500
     else
       render 'edit'
     end
@@ -35,7 +35,7 @@ class DocsController < ApplicationController
 
   def destroy
     @doc.destroy
-    redirect_to docs_path
+    redirect_to docs_path, notice: 'Document deleted.', time: 1500
   end
 
   private

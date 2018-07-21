@@ -11,7 +11,9 @@
 - [x] Utilizing Markdown, ability to markdown documents.
 - [x] Red Carpet, ability to drop in ruby code examples within documents.
 - [x] Growl notifcations using Gritter.
-- [ ] Export to PDF.
+- [ ] Font Awesome Icons
+- [ ] Export to PDF
+- [ ] Export to WORD
 
 ## TODO:
 - [ ] Blog about building Filebase

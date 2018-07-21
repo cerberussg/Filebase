@@ -5,4 +5,6 @@
 
     .buttons
       = link_to "Edit", edit_doc_path(@doc), class: "button"
+      = link_to "xport 2 WORD", edit_doc_path(@doc), class: "button"
+      = link_to "xport 2 PDF", edit_doc_path(@doc), class: "button"
       = link_to "Delete", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?" }, class: "button"
