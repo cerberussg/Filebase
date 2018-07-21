@@ -5,8 +5,7 @@
         %a{ href: (url_for [doc]) }
           .doc
             %p.title= doc.title
-            %p.date= time_ago_in_words(doc.created_at)
-            %p.content= truncate(doc.content, length: 50)
+            %p.date= "Last Updated: #{time_ago_in_words(doc.updated_at)}"
     - else
       %h2 Create Document!
       %p All your files are belong to us. Organized, always.
