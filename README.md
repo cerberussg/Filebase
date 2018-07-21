@@ -9,7 +9,7 @@
 - [x] User
 
 ## UI:
-- [ ] Font Awesome Icons
+- [x] Font Awesome Icons
 - [ ] Friendly URL/ Slugs
 - [ ] Pagination
 

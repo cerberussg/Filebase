@@ -1,4 +1,5 @@
 = simple_form_for @doc do |f|
   = f.input :title
-  = f.input :content, :input_html => {:rows => 35}
-  = f.button :submit, class: "button"
+  = f.input :content, :input_html => {:rows => 25}
+  = f.button :button, class: 'button' do
+    %i.far.fa-save.fa-lg

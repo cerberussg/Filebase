@@ -19,6 +19,7 @@ gem 'gritter', '~> 1.2'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 gem 'redcarpet', '~> 3.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'font-awesome-sass', '~> 5.0', '>= 5.0.13'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
