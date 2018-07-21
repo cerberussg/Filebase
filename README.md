@@ -15,8 +15,8 @@
 
 ## Features:
 - [x] Add, Edit, Destroy documents
-- [x] Utilizing Coderay, ability to markdown documents
-- [x] Redcarpet, Syntax Highlighting
+- [x] Utilizing Redcarpet, ability to markdown documents
+- [x] Coderay, Syntax Highlighting
 - [x] Growl notifcations using Gritter
 - [ ] Export to PDF
 - [ ] Export to WORD
