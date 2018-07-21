@@ -12,6 +12,7 @@
 - [x] Red Carpet, ability to drop in ruby code examples within documents.
 - [x] Growl notifcations using Gritter.
 - [ ] Font Awesome Icons
+- [ ] Pagination
 - [ ] Export to PDF
 - [ ] Export to WORD
 
