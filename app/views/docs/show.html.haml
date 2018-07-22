@@ -6,9 +6,12 @@
     .buttons
       = link_to edit_doc_path(@doc), class: "button" do
         %i.fas.fa-edit.fa-lg
+
       = link_to edit_doc_path(@doc), class: "button" do
         %i.fas.fa-file-word.fa-lg
+
       = link_to edit_doc_path(@doc), class: "button" do
         %i.fas.fa-file-pdf.fa-lg
+
       = link_to doc_path(@doc), method: :delete, data: { confirm: "Are you sure?" }, class: "button" do
         %i.fas.fa-trash-alt.fa-lg

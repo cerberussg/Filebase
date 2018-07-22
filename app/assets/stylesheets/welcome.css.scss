@@ -2,12 +2,12 @@
 // STYLING FOR WELCOME PAGE
 
 #banner {
-  background-image: url(image_path("welcome_banner.jpg"));
+  background-image: url(image_path("welcome_banner.jpeg"));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
   display: table;
   .banner_content {
     display: table-cell;
