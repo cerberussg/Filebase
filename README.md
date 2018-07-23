@@ -23,4 +23,5 @@
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
-- [ ] Blog about building Filebase
+- [ ] UI/UX Redesign: Goes with Super Secret Feature
+- [ ] Blog about building FileBase
