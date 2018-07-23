@@ -20,6 +20,7 @@
 - [x] Growl notifcations using Gritter
 - [ ] Export to PDF
 - [ ] Export to WORD
+- [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
 - [ ] Blog about building Filebase
