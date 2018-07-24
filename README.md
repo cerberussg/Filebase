@@ -18,8 +18,8 @@
 - [x] Utilizing Redcarpet, ability to markdown documents
 - [x] Coderay, Syntax Highlighting
 - [x] Growl notifcations using Gritter
-- [x] Export to PDF
-- [ ] Export to WORD
+- [ ] Export to PDF
+- [x] Export to WORD
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
