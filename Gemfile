@@ -20,6 +20,18 @@ gem 'coderay', '~> 1.1', '>= 1.1.2'
 gem 'redcarpet', '~> 3.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'font-awesome-sass', '~> 5.0', '>= 5.0.13'
+gem 'markdown_to_word', '~> 0.1.5'
+gem 'html-pipeline', '~> 2.8', '>= 2.8.3'
+gem 'commonmarker', '~> 0.17.9'
+gem 'email_reply_parser', '~> 0.5', require: false
+gem 'gemoji', '~> 2.0', require: false
+gem 'minitest'
+gem 'RedCloth',           '~> 4.2.9', require: false
+gem 'rinku',              '~> 1.7',   require: false
+gem 'sanitize',           '~> 4.6', require: false
+gem 'escape_utils', '~> 1.0', require: false
+gem 'rouge', '~> 3.1', require: false
+gem 'htmltoword'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

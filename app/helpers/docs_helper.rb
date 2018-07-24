@@ -11,6 +11,7 @@ module DocsHelper
     options = {
       fenced_code_blocks: true,
       no_intra_emphasis: true,
+      superscript: true,
       autolink: true,
       lax_html_blocks: true,
     }

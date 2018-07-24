@@ -1,3 +1,4 @@
+
 class DocsController < ApplicationController
   before_action :find_doc, only: [:show, :edit, :update, :destroy]
 
@@ -36,6 +37,16 @@ class DocsController < ApplicationController
   def destroy
     @doc.destroy
     redirect_to docs_path, notice: 'Document Deleted Successfully.', time: 1500
+  end
+
+  def export_word
+    find_doc
+
+    html = MarkdownToWord.convert(@doc.content)
+    send_file "app/assets/downloads/#{@doc.title}.docx",
+      :type =>
+      'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      :disposition => 'attachment'
   end
 
   private

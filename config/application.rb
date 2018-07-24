@@ -13,6 +13,9 @@ require "action_cable/engine"
 require "sprockets/railtie"
 require "coderay"
 require 'font-awesome-sass'
+require 'markdown_to_word'
+require 'commonmarker'
+require 'htmltoword'
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -31,5 +34,7 @@ module Filebase
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.middleware.use 'Utf8Sanitizer'
   end
 end

@@ -18,10 +18,11 @@
 - [x] Utilizing Redcarpet, ability to markdown documents
 - [x] Coderay, Syntax Highlighting
 - [x] Growl notifcations using Gritter
-- [ ] Export to PDF
+- [x] Export to PDF
 - [ ] Export to WORD
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
+- [ ] Export to Word feature needs to be better
 - [ ] UI/UX Redesign: Goes with Super Secret Feature
 - [ ] Blog about building FileBase
