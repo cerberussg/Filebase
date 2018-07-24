@@ -23,6 +23,7 @@
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
+- [ ] Make Production ready
 - [ ] Export to Word feature needs to be better
 - [ ] UI/UX Redesign: Goes with Super Secret Feature
 - [ ] Blog about building FileBase

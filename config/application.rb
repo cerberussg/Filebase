@@ -34,7 +34,5 @@ module Filebase
 
     # Don't generate system test files.
     config.generators.system_tests = nil
-
-    config.middleware.use 'Utf8Sanitizer'
   end
 end
