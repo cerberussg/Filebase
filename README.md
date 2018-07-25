@@ -10,6 +10,7 @@
 
 ## UI:
 - [x] Font Awesome Icons
+- [ ] Information Circle for Help
 - [ ] Friendly URL/ Slugs
 - [ ] Pagination
 
@@ -18,8 +19,9 @@
 - [x] Utilizing Redcarpet, ability to markdown documents
 - [x] Coderay, Syntax Highlighting
 - [x] Growl notifcations using Gritter
+- [ ] Search for file
 - [ ] Export to PDF
-- [x] Export to WORD
+- [ ] Export to WORD
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
