@@ -19,6 +19,7 @@
 - [x] Utilizing Redcarpet, ability to markdown documents
 - [x] Coderay, Syntax Highlighting
 - [x] Growl notifcations using Gritter
+- [ ] Tenancy Functionality
 - [ ] markdown Cheatsheet for easy reference
 - [ ] Search for file
 - [ ] Export to PDF
