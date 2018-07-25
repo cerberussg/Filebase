@@ -10,7 +10,7 @@
 
 ## UI:
 - [x] Font Awesome Icons
-- [ ] Information Circle for Help
+- [x] Information Circle for Help
 - [ ] Friendly URL/ Slugs
 - [ ] Pagination
 
