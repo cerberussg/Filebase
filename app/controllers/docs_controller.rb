@@ -1,10 +1,3 @@
-#
-#
-#
-# Author: Scott Goyette
-#
-# Date:
-#
 class DocsController < ApplicationController
   before_action :find_doc, only: [:show, :edit, :update, :destroy]
 
