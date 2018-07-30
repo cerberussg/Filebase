@@ -11,20 +11,7 @@
     .header_inner
       = link_to 'FileBase', root_path, id: "logo"
 
-      %nav
-        - if user_signed_in?
-          = link_to new_doc_path do
-            %i.fas.fa-file-alt.fa-2x
-
-          = link_to '' do
-            %i.fas.fa-info-circle.fa-2x
-
-          = link_to destroy_user_session_path, method: :delete do
-            %i.fas.fa-sign-out-alt.fa-2x
-
-        - else
-          = link_to new_user_session_path do
-            %i.fas.fa-sign-in-alt.fa-2x
+      = render 'shared/nav'
 
   = js add_gritter(flash[:notice], title: "FileBase Notification", sticky: false, time: 1500)
   = yield
