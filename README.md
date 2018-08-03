@@ -13,6 +13,7 @@
 - [x] Information Circle for Help
 - [ ] Friendly URL/ Slugs
 - [ ] Pagination
+- [ ] Add Bootstrap for simplicity
 
 ## Features:
 - [x] Add, Edit, Destroy documents
@@ -27,7 +28,7 @@
 - [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
-- [ ] Make Production ready
+- [ ] Put Alerts and Notices in a helper file
 - [ ] Export to Word feature needs to be better
 - [ ] UI/UX Redesign: Goes with Super Secret Feature
 - [ ] Blog about building FileBase
