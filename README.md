@@ -25,10 +25,8 @@
 - [ ] Search for file
 - [ ] Export to PDF
 - [ ] Export to WORD
-- [ ] Super Secret Feature: Can't Talk About It!
 
 ## TODO:
 - [ ] Put Alerts and Notices in a helper file
 - [ ] Export to Word feature needs to be better
-- [ ] UI/UX Redesign: Goes with Super Secret Feature
 - [ ] Blog about building FileBase
