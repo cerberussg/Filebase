@@ -28,5 +28,5 @@
 
 ## TODO:
 - [ ] Put Alerts and Notices in a helper file
-- [ ] Export to Word feature needs to be better
+- [ ] Export to Word feature
 - [ ] Blog about building FileBase
