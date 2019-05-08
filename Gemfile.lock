@@ -60,7 +60,7 @@ GEM
     coffee-script-source (1.12.2)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     crass (1.0.4)
     devise (4.6.1)
       bcrypt (~> 3.0)
@@ -91,7 +91,7 @@ GEM
       actionpack
       nokogiri
       rubyzip (>= 1.0)
-    i18n (1.5.3)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
@@ -123,14 +123,14 @@ GEM
     msgpack (1.2.6)
     multi_json (1.13.1)
     nio4r (2.3.1)
-    nokogiri (1.10.1)
+    nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     nokogumbo (1.5.0)
       nokogiri
     orm_adapter (0.5.0)
     pg (1.1.4)
     puma (3.12.0)
-    rack (2.0.6)
+    rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.2)
@@ -275,4 +275,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.16.2
+   1.16.6
